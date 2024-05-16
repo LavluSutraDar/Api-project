@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Raj",
+        "email": "raj@gmail.com",
+        "phone": "01874640765",
+        "slug": "raj"
+    },
+
+    {
+        "name": "Rajo",
+        "email": "rajo@gmail.com",
+        "phone": "01876447658",
+        "slug": "rajo"
+    },
+    {
+        "name": "Apu",
+        "email": "apu@gmail.com",
+        "phone": "01876847658",
+        "slug": "apu"
+    }
+
+]

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\CategoryController;
+use App\Http\Controllers\Api\postController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -19,9 +20,12 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::controller(CategoryController::class)->group(function(){
-    Route::get('/message', 'category');
-    Route::post('/categories/store','store');
+Route::apiResource('categories', CategoryController::class);
+Route::apiResource('posts', postController::class);
 
-});
+// Route::controller(CategoryController::class)->group(function(){
+//     Route::get('/message', 'category');
+//     Route::post('/categories/store','store');
+
+//  });
 
